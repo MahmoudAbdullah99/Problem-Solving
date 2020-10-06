@@ -9,3 +9,9 @@
 ##### 3. The Minion Game: 
   - [The Problem Definition](https://www.hackerrank.com/challenges/the-minion-game/problem)
   - [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Merge-the-Tools.py)
+##### 4. No Idea: 
+  - [The Problem Definition](https://www.hackerrank.com/challenges/no-idea/problem)
+  - [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/No-Idea.py)
+##### 5. Word Order: 
+  - [The Problem Definition](https://www.hackerrank.com/challenges/word-order/problem)
+  - [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Word-Order.py)
