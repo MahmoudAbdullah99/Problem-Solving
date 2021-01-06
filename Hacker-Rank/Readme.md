@@ -7,3 +7,4 @@
 ##### 5. Word Order: Here is [The Problem Description](https://www.hackerrank.com/challenges/word-order/problem) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Word-Order.py)
 ##### 6. Triangle Quest 2: Here is [The Problem Description](https://www.hackerrank.com/challenges/triangle-quest-2/problem) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Traingle-Quest-2.py)
 ##### 7. Iterables and Iterators: Here is [The Problem Description](https://www.hackerrank.com/challenges/word-order/problem) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Iterables-and-Iterators.py)
+##### 8. Dynamic Array: Here is [The Problem Description](https://www.hackerrank.com/challenges/dynamic-array/problem) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/Hacker-Rank/Dynamic_Array.py)
