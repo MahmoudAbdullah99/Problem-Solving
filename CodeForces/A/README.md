@@ -4,5 +4,3 @@
 ##### 158. Next Round: Here is  [The Problem Description](https://codeforces.com/contest/158/problem/A) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/CodeForces/A/158.Next-Round.py)
 ##### 236. Boy or girl: Here is  [The Problem Description](https://codeforces.com/problemset/problem/236/A) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/CodeForces/A/236.Boy-or-Girl.py)
 ##### 266. Stones on the Table: Here is  [The Problem Description](https://codeforces.com/problemset/problem/266/A) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/CodeForces/A/266.Stones-on-the-Table.py)
-##### 236. Boy or girl: Here is  [The Problem Description](https://codeforces.com/problemset/problem/236/A) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/CodeForces/A/236.Boy-or-Girl.py)
-##### 266. Stones on the Table: Here is  [The Problem Description](https://codeforces.com/problemset/problem/266/A) and [My Implementation](https://github.com/mahmoudbebars99/Problem-Solving/blob/master/CodeForces/A/266.Stones-on-the-Table.py)
