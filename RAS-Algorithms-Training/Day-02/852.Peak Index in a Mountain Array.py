@@ -26,8 +26,6 @@ class Solution:
 
         while left < right:
             middle = (left + right) // 2
-            print('left is {}, middle is {}, and right is {}'.format(left, middle, right))
-            print('arr[middle-1] is {}, arr[middle] is {} and arr[middle+1] is {}'.format(arr[middle-1],  arr[middle], arr[middle+1]))
             if arr[middle] > arr[middle-1]:
                 if arr[middle] > arr[middle+1]:
                     return middle
