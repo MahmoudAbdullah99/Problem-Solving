@@ -11,6 +11,9 @@ Steps:
     - Iterating over them and the rest of the original list to put every element in their right order with respect to
     the rest of the original list.
     - Squaring the new list of the ordered elements.
+
+TODO:
+    - Review.
 """
 
 

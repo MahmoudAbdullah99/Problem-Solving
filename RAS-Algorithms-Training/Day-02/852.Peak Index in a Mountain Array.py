@@ -14,6 +14,9 @@ Notes:
     - You only need to find the index of the greatest number (the top of the mountain).
     - The problem is similar to the binary search approach, but instead of comparing the middle number to the target,
     you need to compare the middle number to the two numbers next to it.
+
+TODO:
+    - Review.
 """
 
 from typing import List
