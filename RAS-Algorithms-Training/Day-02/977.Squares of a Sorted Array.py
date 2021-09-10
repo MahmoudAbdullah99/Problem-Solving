@@ -45,4 +45,6 @@ class Solution:
         return [num ** 2 for num in right]
 
     def sortedSquares(self, nums):
-        return sorted([num ** 2 for num in nums])
+        nums = [num ** 2 for num in nums]
+        nums.sort()
+        return nums
