@@ -25,10 +25,11 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         if not k % len(nums):
-            return
-        elif k > len(nums):
+            return nums
+        elif k < len(nums):
+            nums[:] = nums[-k:] + nums[:-k]
+        else:
+            k = k % len(nums)
             for i in range(k):
                 nums.insert(0, nums[-1])
                 nums.pop()
-        else:
-            nums[:] = nums[-k:] + nums[:-k]
