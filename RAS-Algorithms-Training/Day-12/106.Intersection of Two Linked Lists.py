@@ -99,3 +99,34 @@ class Solution:
 
         self.changeSign(headA)
         return headB
+
+    def getIntersectionNode_3(self, headA: ListNode, headB: ListNode) -> \
+            ListNode:
+        if headA and headB:
+            currA, currB = headA, headB
+            len_listA, len_listB = 0, 0
+
+            while currA:
+                len_listA += 1
+                currA = currA.next
+
+            while currB:
+                len_listB += 1
+                currB = currB.next
+
+            currA, currB = headA, headB
+            diff = abs(len_listA - len_listB)
+
+            if len_listA > len_listB:
+                for i in range(diff):
+                    currA = currA.next
+            elif len_listA < len_listB:
+                for i in range(diff):
+                    currB = currB.next
+
+            while currA != currB:
+                currA, currB = currA.next, currB.next
+
+            return currA
+
+        return
