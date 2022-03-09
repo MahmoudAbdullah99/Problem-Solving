@@ -1,14 +1,10 @@
-class Solution:
-    def rotate(self, nums: List[int], k: int) -> None:
+class Solution(object):
+    def rotate(self, nums, k):
         """
-        Do not return anything, modify nums in-place instead.
+        :type nums: List[int]
+        :type k: int
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
-        if not k % len(nums):
-            return nums
-        elif k < len(nums):
-            nums[:] = nums[-k:] + nums[:-k]
-        else:
-            k = k % len(nums)
-            for i in range(k):
-                nums.insert(0, nums[-1])
-                nums.pop()
+        k = k % len(nums)
+        if len(nums) > 1 and k > 0:
+            nums[:] = nums[-k:] + nums[:len(nums)-k]
