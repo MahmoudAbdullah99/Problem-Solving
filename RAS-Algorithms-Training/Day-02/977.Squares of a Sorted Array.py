@@ -1,15 +1,16 @@
 """
 Problem Description:
-    Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in
-    non-decreasing order.
+    Given an integer array nums sorted in non-decreasing order, return an
+    array of the squares of each number sorted in non-decreasing order.
 
 Notes:
     - The array is already sorted in a non-increasing order.
 
 Steps:
-    - Inverting order and sign of the negative numbers(putting them in the right order with respect to each other).
-    - Iterating over them and the rest of the original list to put every element in their right order with respect to
-    the rest of the original list.
+    - Inverting order and sign of the negative numbers(putting them in the
+    right order with respect to each other).
+    - Iterating over them and the rest of the original list to put every
+    element in their right order with respect to the rest of the original list.
     - Squaring the new list of the ordered elements.
 
 TODO:

@@ -10,6 +10,11 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
   - [278.First Bad Version](https://leetcode.com/problems/first-bad-version/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-278.First-Bad-Version.py)
   - [35.Search Insert Position](https://leetcode.com/problems/search-insert-position/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-35.Search-Insert-Position.py)
 
+* ### Day 2: Two Pointers
+  - [977.Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-003/leetcode-977.Squares%20of-a-Sorted-Array.py)
+  - [189.Rotate Array](https://leetcode.com/problems/rotate-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-003/leetcode-189.Rotate-Array.py)
+
+
 ***
 
 ## Data Structures I
