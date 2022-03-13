@@ -22,3 +22,7 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 * ### Day 1: Array
   - [217.Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-002/leetcode-217.Contains-Duplicate.py)
   - [53.Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-002/leetcode-53.Maximum-Subarray.py)
+
+* ### Day 2: Array
+  - [1.Two Sum](https://leetcode.com/problems/two-sum/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-004/leetcode-1.Two-Sum.py)
+  - [88.Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-004/leetcode-88.Merge-Sorted-Array.py)
