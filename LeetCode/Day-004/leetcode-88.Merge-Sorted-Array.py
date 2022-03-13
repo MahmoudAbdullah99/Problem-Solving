@@ -20,6 +20,36 @@ TODO:
 
 
 class Solution(object):
+    def mergeExternalArray(self, nums1, m, nums2, n):
+        """
+        :type nums1: List[int]
+        :type m: int
+        :type nums2: List[int]
+        :type n: int
+        :rtype: None Do not return anything, modify nums1 in-place instead.
+        """
+        indx_1, indx_2 = 0, 0
+        final_nums = []
+
+        while indx_1 < m and indx_2 < n:
+            if nums1[indx_1] <= nums2[indx_2]:
+                final_nums.append(nums1[indx_1])
+                indx_1 += 1
+            else:
+                final_nums.append(nums2[indx_2])
+                indx_2 += 1
+        
+        while indx_1 < m:
+            final_nums.append(nums1[indx_1])
+            indx_1 += 1
+        
+        while indx_2 < n:
+            final_nums.append(nums2[indx_2])
+            indx_2 += 1
+        
+        nums1[:] = final_nums
+
+
     def mergeInPlace(self, nums1, m, nums2, n):
         """
         :type nums1: List[int]
