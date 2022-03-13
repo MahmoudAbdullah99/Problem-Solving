@@ -24,7 +24,7 @@ isBadVersion function:
         - If the answer is true then we need to search the left sublist; the
         first bad version is in the left of the current version or it is the
         current version.
-        - If the answer is false then we need to search the left sublist; the
+        - If the answer is false then we need to search the right sublist; the
         first bad version is in the right of the current version.
 
 TODO:
