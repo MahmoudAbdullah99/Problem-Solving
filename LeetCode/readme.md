@@ -14,6 +14,9 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
   - [977.Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-003/leetcode-977.Squares%20of-a-Sorted-Array.py)
   - [189.Rotate Array](https://leetcode.com/problems/rotate-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-003/leetcode-189.Rotate-Array.py)
 
+* ### Day 3: Two Pointers
+  - [283.Move Zeroes](https://leetcode.com/problems/move-zeroes/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-005/leetcode-283.Move-Zeroes.py)
+  - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-005/leetcode-167.Two-Sum-II-Input-Array-Is-Sorted.py)
 
 ***
 
