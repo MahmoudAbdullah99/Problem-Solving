@@ -32,3 +32,4 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 
 * ### Day 3: Array
   - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-006/leetcode-350.Intersection-of-Two-Arrays-II.py)
+  - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-006/leetcode-121.Best-Time-to-Buy-and-Sell-Stock.py)
