@@ -1,6 +1,12 @@
-class Solution:
-    def reverseString(self, s: List[str]) -> None:
+class Solution(object):
+    def reverseString(self, s):
         """
-        Do not return anything, modify s in-place instead.
+        :type s: List[str]
+        :rtype: None Do not return anything, modify s in-place instead.
         """
-        s[:] = [s[i] for i in range(len(s)-1,-1,-1)]
+        len_s = len(s)
+        for i in range(len_s//2):
+            opposite = len_s-i-1
+            temp = s[i]
+            s[i] = s[opposite]
+            s[opposite] = temp
