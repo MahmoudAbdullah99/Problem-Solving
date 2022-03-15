@@ -14,30 +14,25 @@ TODO:
 
 class Solution(object):
     def makeDictionary(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: Dict
+        """
         dict_nums = {}
         for num in nums:
-                if dict_nums.get(num):
-                    dict_nums[num] += 1
-                else:
-                    dict_nums[num] = 1
-        
+            dict_nums[num] = dict_nums.get(num,0) + 1
         return dict_nums
 
-    def intersectHashTable(self, nums1, nums2):
+    def intersect(self, nums1, nums2):
         """
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: List[int]
         """
         intersections = []
-        if len(nums1) > len(nums2):
-            dict_nums = self.makeDictionary(nums2)
-            nums = nums1
-        else:
-            dict_nums = self.makeDictionary(nums1)
-            nums = nums2
+        dict_nums = self.makeDictionary(nums2)
         
-        for num in nums:
+        for num in nums1:
             if dict_nums.get(num):
                 intersections.append(num)
                 dict_nums[num] -= 1
