@@ -29,3 +29,6 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 * ### Day 2: Array
   - [1.Two Sum](https://leetcode.com/problems/two-sum/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-004/leetcode-1.Two-Sum.py)
   - [88.Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-004/leetcode-88.Merge-Sorted-Array.py)
+
+* ### Day 3: Array
+  - [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-006/leetcode-350.Intersection-of-Two-Arrays-II.py)
