@@ -19,8 +19,8 @@ class Solution(object):
         :type numRows: int
         :rtype: List[List[int]]
         """
-        rows = [[1],[1,1]]
-        for i in range(1, numRows-1):
+        rows = [[1]]
+        for i in range(0, numRows-1):
             rows.append([1]+[rows[i][j]+rows[i][j+1] for j in range(len(rows[i])-1)] +[1])
         
-        return rows[:numRows]
+        return rows
