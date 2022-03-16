@@ -19,8 +19,8 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
   - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-005/leetcode-167.Two-Sum-II-Input-Array-Is-Sorted.py)
 
 * ### Day 4: Two Pointers
-  - [344. Reverse String](https://leetcode.com/problems/reverse-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-344.Reverse-String.py)
-
+  - [344. Reverse String](https://leetcode.com/problems/reverse-words-in-a-string-iii/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-344.Reverse-String.py)
+  - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-557.Reverse-Words-in-a-String-III.py)
 
 ***
 
