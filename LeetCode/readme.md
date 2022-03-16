@@ -40,3 +40,4 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 
 * ### Day 4: Array
   - [566. Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-008/leetcode-566.Reshape-the-Matrix.py)
+  - [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-008/leetcode-118.Pascal-Triangle.py)
