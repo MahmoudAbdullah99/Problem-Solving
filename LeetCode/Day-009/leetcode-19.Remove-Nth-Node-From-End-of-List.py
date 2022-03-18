@@ -20,6 +20,26 @@ class ListNode(object):
 
 
 class Solution(object):
+    def removeNthFromEndRecursive(self, head, n):
+        """
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
+        """
+        def remove(head, n):
+            if head == None:
+                return head, 0
+            
+            head.next, counter = remove(head.next, n)
+            counter += 1
+               
+            if counter == n:
+                head = head.next
+            
+            return head, counter
+        
+        return remove(head, n)[0]
+    
     def removeNthFromEndIterative(self, head, n):
         """
         :type head: ListNode
