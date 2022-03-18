@@ -3,6 +3,11 @@
 This is a repo of my solutions for [Algoritms and Data Structures study plans](https://leetcode.com/study-plan) 
 on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/MahmoudAbdullah99/) btw.
 
+## Ranking
+| Date        | Rank        |
+| ----------- | ----------- |
+| Mar 18      | 763,862     |
+
 ## Algorithms I
 
 * ### Day 1: Binary Search
