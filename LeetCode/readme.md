@@ -23,7 +23,8 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
   - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-557.Reverse-Words-in-a-String-III.py) whose runtime beats 74.27% of python submissions.
 
 * ### Day 5: Two Pointers
-  - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-876.Middle-of-the-Linked-List.py) whose runtime beats 73.27 % of python submissions, and memory usage beats 94.51 % of python submissions.
+  - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-876.Middle-of-the-Linked-List.py) whose runtime beats 73.27% of python submissions, and memory usage beats 94.51% of python submissions.
+  - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-19.Remove-Nth-Node-From-End-of-List.py) whose runtime beats 99.54% of python submissions for recursive approach and 90.78% for iterative approach, and memory usage beats 42.96% of python submissions for both approaches.
 
 ***
 
