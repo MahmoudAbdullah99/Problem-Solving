@@ -3,6 +3,12 @@
 This is a repo of my solutions for [Algoritms and Data Structures study plans](https://leetcode.com/study-plan) 
 on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/MahmoudAbdullah99/) btw.
 
+## Ranking
+| Date             | Rank        |
+| ---------------- | ----------- |
+| Mar 18 2022      | 763,862     |
+| Mar 26 2022      | 770,142     |
+
 ## Algorithms I
 
 * ### Day 1: Binary Search
