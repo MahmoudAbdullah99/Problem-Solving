@@ -1,3 +1,15 @@
+"""
+Problem Description:
+    - Given a string s, find the length of the longest substring without repeating characters.
+
+Notes:
+    - 
+    - 
+
+TODO:
+    - Add notes
+    - Review
+"""
 class Solution(object):
     def lengthOfLongestSubstringHashTable(self, s):
         """
@@ -25,7 +37,7 @@ class Solution(object):
         """
         :type s: str
         :rtype: int
-        
+
         """
         longest_substring_count = 0
         temp_length = 0
