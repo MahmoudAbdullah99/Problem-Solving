@@ -6,7 +6,8 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 ## Ranking
 | Date             | Rank        |
 | ---------------- | ----------- |
-| Mar 18 2021      | 763,862     |
+| Mar 18 2022      | 763,862     |
+| Mar 26 2022      | 770,142     |
 
 ## Algorithms I
 
