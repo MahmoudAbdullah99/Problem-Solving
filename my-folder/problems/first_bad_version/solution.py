@@ -1,8 +1,14 @@
 # The isBadVersion API is already defined for you.
-# def isBadVersion(version: int) -> bool:
+# @param version, an integer
+# @return a bool
+# def isBadVersion(version):
 
-class Solution:
-    def firstBadVersion(self, n: int) -> int:
+class Solution(object):
+    def firstBadVersion(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """        
         if n == 1: return 1
         
         left, right = 1, n
@@ -10,7 +16,7 @@ class Solution:
         while left <= right:
             version = (left+right)//2
             
-            if isBadVersion(version) is True:
+            if isBadVersion(version):
                 right = version-1
             else:
                 left = version+1
