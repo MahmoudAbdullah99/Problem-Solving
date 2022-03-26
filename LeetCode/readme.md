@@ -25,12 +25,15 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
   - [167. Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-005/leetcode-167.Two-Sum-II-Input-Array-Is-Sorted.py)
 
 * ### Day 4: Two Pointers
-  - [344. Reverse String](https://leetcode.com/problems/reverse-words-in-a-string-iii/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-344.Reverse-String.py) whose runtime beats 99.89 % of python submissions, and memory usage beats 72.59 % of python submissions.
-  - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-557.Reverse-Words-in-a-String-III.py) whose runtime beats 74.27% of python submissions.
+  - [344. Reverse String](https://leetcode.com/problems/reverse-words-in-a-string-iii/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-344.Reverse-String.py) which runtime beats 99.89 % of python submissions, and memory usage beats 72.59 % of python submissions.
+  - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-007/leetcode-557.Reverse-Words-in-a-String-III.py) which runtime beats 74.27% of python submissions.
 
 * ### Day 5: Two Pointers
-  - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-876.Middle-of-the-Linked-List.py) whose runtime beats 73.27% of python submissions, and memory usage beats 94.51% of python submissions.
-  - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-19.Remove-Nth-Node-From-End-of-List.py) whose runtime beats 99.54% of python submissions for recursive approach and 90.78% for iterative approach, and memory usage beats 42.96% of python submissions for both approaches.
+  - [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-876.Middle-of-the-Linked-List.py) which runtime beats 73.27% of python submissions, and memory usage beats 94.51% of python submissions.
+  - [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-009/leetcode-19.Remove-Nth-Node-From-End-of-List.py) which runtime beats 99.54% of python submissions for recursive approach and 90.78% for iterative approach, and memory usage beats 42.96% of python submissions for both approaches.
+
+* ### Day 6: Sliding Window
+  - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-010/leetcode-3.Longest-Substring-Without-Repeating-Characters.py) which runtime beats 93.86% of python submissions, and memory usage beats 46.88% of python submissions.
 
 ***
 
