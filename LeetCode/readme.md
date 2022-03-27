@@ -12,7 +12,7 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 ## Algorithms I
 
 * ### Day 1: Binary Search
-  - [704.Binary Search Array](https://leetcode.com/problems/binary-search/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-704.Binary-Search.py)
+  - [704.Binary Search Array](https://leetcode.com/problems/binary-search/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-704.Binary-Search.py) which runtime beats 98.53% of python submission, and memory usage beats 53.30% of python submission.
   - [278.First Bad Version](https://leetcode.com/problems/first-bad-version/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-278.First-Bad-Version.py)
   - [35.Search Insert Position](https://leetcode.com/problems/search-insert-position/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-001/leetcode-35.Search-Insert-Position.py)
 
