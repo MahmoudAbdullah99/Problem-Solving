@@ -35,3 +35,31 @@ class Solution():
                 return True
         
         return False
+    
+    def checkInclusionHashTable(self, s1, s2):
+        """
+        :type s1: str
+        :type s2: str
+        :rtype: bool
+        """
+        if len(s2) < len(s1):
+            return False
+        
+        s1_counter = {x:0 for x in range(97,123)}
+        s2_counter = {x:0 for x in range(97,123)}
+
+        for i in range(len(s1)):
+            s1_count[ord(s1[i])] += 1
+            s2_count[ord(s2[i])] += 1
+                
+        for i in range(len(s1), len(s2)+1):
+            if s1_count == s2_count:
+                return True
+            
+            if i < (len(s2)):
+                s2_count[ord(s2[i])] += 1
+            
+            # sliding window
+            s2_count[ord(s2[i-len(s1)])] -= 1
+            
+        return False
