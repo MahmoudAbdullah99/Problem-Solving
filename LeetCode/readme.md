@@ -35,7 +35,12 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 * ### Day 6: Sliding Window
   - [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-010/leetcode-3.Longest-Substring-Without-Repeating-Characters.py) which runtime beats 93.86% of python submissions, and memory usage beats 46.88% of python submissions.
 
+* ### Day 7: Sliding Window
+  - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-010/leetcode-3.Longest-Substring-Without-Repeating-Characters.py) which runtime beats 93.86% of python submissions, and memory usage beats 46.88% of python submissions.
+
+
 ***
+
 
 ## Data Structures I
 
