@@ -24,7 +24,4 @@ class Solution(object):
             if temp_length > longest_substring_count:
                     longest_substring_count = temp_length
             
-#             print(longest_substring)
-#             print("temp = {}, max ={}".format(temp_length, longest_substring_count))
-        
         return longest_substring_count
