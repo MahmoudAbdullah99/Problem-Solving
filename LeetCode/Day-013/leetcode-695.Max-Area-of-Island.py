@@ -42,7 +42,7 @@ class Solution(object):
         
         return max_area
     
-    def maxAreaOfIslandDFS(self, grid):
+    def maxAreaOfIslandQueue(self, grid):
         """
         :type grid: List[List[int]]
         :rtype: int
