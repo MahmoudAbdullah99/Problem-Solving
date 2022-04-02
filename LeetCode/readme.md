@@ -38,9 +38,11 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 * ### Day 7: Sliding Window
   - [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-011/leetcode-567.Permutation-in-String.py) which runtime beats 98.60% of python submissions, and memory usage beats 57.63% of python submissions.
 
-* ### Day 7: Breadth-First Search / Depth-First Search
+* ### Day 8: Breadth-First Search / Depth-First Search
   - [733. Flood Fill](https://leetcode.com/problems/flood-fill/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-012/leetcode-733.Flood-Fill.py) which runtime beats 62.96 % of python submissions, and memory usage beats 33.44% of python submissions.
 
+* ### Day 9: Breadth-First Search / Depth-First Search
+  - [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/) and [my solution](https://github.com/MahmoudAbdullah99/Problem-Solving/blob/master/LeetCode/Day-013/leetcode-695.Max-Area-of-Island.py). Using DFS made runtime beats 91.05% of python submissions, and memory usage beats 41.48% of python submissions, and using queue made runtime beats 99.64% of python submissions, and memory usage beats 95.24% of python submissions.
 
 ***
 
