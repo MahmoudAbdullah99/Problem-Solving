@@ -1,4 +1,10 @@
-class Solution:
-    def runningSum(self, nums: List[int]) -> List[int]:
-        ls = [sum(nums[:i+1]) for i in range(len(nums))]
-        return ls
+class Solution(object):
+    def runningSum(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        for i in range(1, len(nums)):
+            nums[i] += nums[i-1]
+
+        return nums
