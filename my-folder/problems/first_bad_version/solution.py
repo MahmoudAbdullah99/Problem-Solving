@@ -8,17 +8,17 @@ class Solution(object):
         """
         :type n: int
         :rtype: int
-        """        
-        if n == 1: return 1
-        
-        left, right = 1, n
-        
-        while left <= right:
-            version = (left+right)//2
-            
-            if isBadVersion(version):
-                right = version-1
+        """
+        l = 1
+        r = n
+        m = (l + r) // 2
+
+        while l < r:
+            if not isBadVersion(m):
+                l = m + 1
             else:
-                left = version+1
+                r = m
+            m = (l + r) // 2
+            
         
-        return left
+        return m
