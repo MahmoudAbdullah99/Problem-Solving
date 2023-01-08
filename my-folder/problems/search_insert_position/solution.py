@@ -5,22 +5,21 @@ class Solution(object):
         :type target: int
         :rtype: int
         """
-        left, right = 0, len(nums) - 1
-        
-        if target < nums[left]:
+        l = 0
+        r = len(nums)-1
+
+        if target < nums[0]:
             return 0
-        if target > nums[right]:
-            return len(nums)
-        
-        while left <= right:
-            middle = (left + right) // 2
-            mid_element = nums[middle]
+        elif target > nums[r]:
+            return r + 1
 
-            if target == mid_element:
-                return middle
-            elif target > mid_element:
-                left = middle + 1
+        while l <= r:
+            m = (l + r) // 2
+            if nums[m] == target:
+                return m
+            elif nums[m] > target:
+                r = m - 1
             else:
-                right = middle - 1
-
-        return left 
+                l = m + 1
+        
+        return l
