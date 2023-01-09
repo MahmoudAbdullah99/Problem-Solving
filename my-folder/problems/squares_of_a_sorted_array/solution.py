@@ -4,49 +4,20 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        nums = [i**2 for i in nums]
-        nums.sort()
-        return nums
-    
-    def optimizedSortedSquares(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        squares = []
-        positives = []
-        negatives = []
-        barrier = 0
+        i, j = 0, len(nums)-1
+        c = len(nums)-1
+        sq_nums = [0] * len(nums)
 
-        for indx, ele in enumerate(nums):
-            if ele < 0:
-                barrier+=1
+        while c >= 0:
+            left_sq = nums[i] ** 2
+            right_sq = nums[j] ** 2
+
+            if left_sq >= right_sq:
+                sq_nums[c] = left_sq
+                i += 1
             else:
-                positives.append(ele**2)
+                sq_nums[c] = right_sq
+                j -= 1
+            c -= 1
 
-        for indx in range(barrier-1,-1,-1):
-            negatives.append(nums[indx]**2)
-        
-        pos_indx, neg_indx = 0, 0
-
-        while pos_indx < len(positives) and neg_indx < len(negatives):
-            if positives[pos_indx] == negatives[neg_indx]:
-                squares.extend([positives[pos_indx], negatives[neg_indx]])
-                pos_indx += 1
-                neg_indx += 1
-            elif positives[pos_indx] < negatives[neg_indx]:
-                squares.append(positives[pos_indx])
-                pos_indx += 1
-            else:
-                squares.append(negatives[neg_indx])
-                neg_indx += 1
-
-        while pos_indx < len(positives):
-            squares.append(positives[pos_indx])
-            pos_indx += 1
-        
-        while neg_indx < len(negatives):
-            squares.append(negatives[neg_indx])
-            neg_indx += 1
-
-        return squares
+        return sq_nums
