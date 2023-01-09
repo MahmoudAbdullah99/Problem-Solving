@@ -1,16 +1,12 @@
-class Solution(object):
-    def sortedSquares(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        i, j = 0, len(nums)-1
-        c = len(nums)-1
-        sq_nums = [0] * len(nums)
+class Solution:
+    def sortedSquares(self, A: List[int]) -> List[int]:
+        i, j = 0, len(A)-1
+        c = len(A)-1
+        sq_nums = [0] * len(A)
 
         while c >= 0:
-            left_sq = nums[i] ** 2
-            right_sq = nums[j] ** 2
+            left_sq = A[i] ** 2
+            right_sq = A[j] ** 2
 
             if left_sq >= right_sq:
                 sq_nums[c] = left_sq
