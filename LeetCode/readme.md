@@ -9,6 +9,7 @@ on [LeetCode](https://leetcode.com/), here is [my account](https://leetcode.com/
 | Mar 18 2022      | 763,862     |
 | Mar 26 2022      | 770,142     |
 | Jan 06 2022      | 877,333     |
+| Jan 10 2022      | 814,505     |
 
 ## Algorithms I
 
