@@ -1,10 +1,9 @@
-class Solution(object):
-    def rotate(self, nums, k):
+class Solution:
+    def rotate(self, nums: List[int], k: int) -> None:
         """
-        :type nums: List[int]
-        :type k: int
-        :rtype: None Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        k = k % len(nums)
-        if len(nums) > 1 and k > 0:
-            nums[:] = nums[-k:] + nums[:len(nums)-k]
+        pointer = len(nums) - (k % len(nums))
+        for i in range(pointer):
+            nums.append(nums[i])
+        nums[:] = nums[pointer:]
