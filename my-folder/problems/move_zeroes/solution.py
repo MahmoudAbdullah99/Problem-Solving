@@ -1,19 +1,17 @@
-class Solution(object):
-    def moveZeroes(self, nums):
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        pointer1 = 0
-        pointer2 = 1
-
-        while pointer1 < len(nums) and pointer2 < len(nums):
-            if nums[pointer1] != 0:
-                pointer1 += 1
-                pointer2 += 1
-            elif nums[pointer1] == 0 and nums[pointer2] != 0:
-                nums[pointer1], nums[pointer2] = nums[pointer2], nums[pointer1]
-                pointer1 += 1
-                pointer2 += 1
-            elif nums[pointer1] == 0 and nums[pointer2] == 0:
-                pointer2 += 1
+        zero_pointer, non_zero_pointer = 0, 0
+        
+        while zero_pointer < len(nums) and non_zero_pointer < len(nums):
+            if nums[zero_pointer] != 0:
+                non_zero_pointer += 1
+                zero_pointer += 1
+            elif nums[non_zero_pointer] == 0:
+                non_zero_pointer += 1
+            else:
+                nums[non_zero_pointer], nums[zero_pointer] = nums[zero_pointer], nums[non_zero_pointer]
+        
+            
