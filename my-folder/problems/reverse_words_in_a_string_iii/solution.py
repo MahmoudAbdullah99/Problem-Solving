@@ -1,20 +1,10 @@
-class Solution(object):
-    def reverseString(self, s):
-        """
-        :type s: List[str]
-        :rtype: None Do not return anything, modify s in-place instead.
-        """
-        reversed_s = ""
-        for i in range(len(s)-1,-1,-1):
-            reversed_s += s[i]
-        
-        return reversed_s
-    
-    def reverseWords(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
-        words = s.split()
-        reversed_words = [self.reverseString(list(word)) for word in words]
-        return " ".join(reversed_words)
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        rev_word = ""
+        for i in range(len(s)-1,-2,-1):
+            if i == -1 or s[i] == ' ':
+                s = s[:i+1] + rev_word + s[i+1+len(rev_word):]
+                rev_word = ""
+                continue
+            rev_word += s[i]
+        return s
