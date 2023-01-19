@@ -1,27 +1,17 @@
-class Solution(object):
-    def lengthOfLongestSubstring(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
         longest_substring_count = 0
         temp_length = 0
-        longest_substring = {}
-        
-        for indx in range(len(s)):
-            if not longest_substring.get(s[indx]):
-                longest_substring[s[indx]] = indx+1
+        chars_indexes = {}
+
+        for index, element in enumerate(s):
+            if chars_indexes.get(element) == None:
                 temp_length += 1
-                
+                chars_indexes[element] = index
             else:
-                if temp_length+1 < ((indx+1) - longest_substring[s[indx]]):
-                    temp_length += 1
-                else:
-                    temp_length = (indx+1) - longest_substring[s[indx]]
-                
-                longest_substring[s[indx]] = indx+1
-            
-            if temp_length > longest_substring_count:
-                    longest_substring_count = temp_length
-            
+                temp_length = min((index-chars_indexes[element]), temp_length+1)
+                chars_indexes[element] = index
+
+            longest_substring_count = max(longest_substring_count, temp_length)
+
         return longest_substring_count
