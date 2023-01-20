@@ -8,5 +8,4 @@ LEFT JOIN (
     ON o.com_id = c.com_id
     WHERE c.name = 'RED') AS t
 ON s.sales_id = t.sales_id
-WHERE t.order_id IS NULL
-;
+WHERE t.order_id IS NULL;
