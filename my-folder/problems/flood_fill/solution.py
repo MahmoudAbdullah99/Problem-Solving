@@ -1,35 +1,21 @@
-class Solution(object):
-    def floodFill(self, image, sr, sc, newColor):
-        """
-        :type image: List[List[int]]
-        :type sr: int
-        :type sc: int
-        :type newColor: int
-        :rtype: List[List[int]]
-        """
-        currentColor = image[sr][sc]
-
-        def fill(sr, sc):
-            
-            if sr < 0 or sc < 0 or sr >= len(image) or sc >= len(image[0]) or image[sr][sc] == newColor or image[sr][sc] != currentColor:
-                    return
-            
-            image[sr][sc] = newColor
-            
-            fill(sr+1, sc)
-            fill(sr-1, sc)
-            fill(sr, sc+1)
-            fill(sr, sc-1)
-        
-        if image[sr][sc] == newColor:
+class Solution:
+    def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
+        if color == 0:
             return image
         
-        fill(sr, sc)
+        curr_color = image[sr][sc]
+        
+        def fill(sr,sc):
+            if not 0 <= sr < len(image) or not 0 <= sc < len(image[0]) or image[sr][sc] != curr_color or image[sr][sc] == color:
+                return
+            
+            image[sr][sc] = color
+
+            fill(sr-1,sc)
+            fill(sr+1,sc)
+            fill(sr,sc-1)
+            fill(sr,sc+1)
+        
+        fill(sr,sc)
         
         return image
-
-        
-
-    
-
-        
