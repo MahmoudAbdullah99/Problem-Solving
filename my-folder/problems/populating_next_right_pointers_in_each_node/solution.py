@@ -1,36 +1,24 @@
-from collections import deque
-
 """
 # Definition for a Node.
-class Node(object):
-    def __init__(self, val=0, left=None, right=None, next=None):
+class Node:
+    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
         self.val = val
         self.left = left
         self.right = right
         self.next = next
 """
 
-class Solution(object):
-    def connect(self, root):
-        """
-        :type root: Node
-        :rtype: Node
-        """
-        if not root:
-            return None
+class Solution:
+    def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
+        if not root or not root.left:
+            return root
         
-        queue = deque([root])
+        root.left.next = root.right
+
+        if root.next:
+            root.right.next = root.next.left
         
-        while queue:
-            q_size = len(queue)
-            for i in range(q_size):
-                curr_node = queue.popleft()
-                if q_size != i+1:
-                    curr_node.next = queue[0]
-                
-                if curr_node.left:
-                    queue.append(curr_node.left)
-                if curr_node.right:
-                    queue.append(curr_node.right)
-                    
+        self.connect(root.left)
+        self.connect(root.right)
+
         return root
