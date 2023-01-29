@@ -1,14 +1,11 @@
-class Solution(object):
-    def containsDuplicate(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: bool
-        """
-        occurences = {}
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        nums_index = {}
 
-        for ele in nums:
-            if occurences.get(ele, 0) == 1:
+        for num in nums:
+            if nums_index.get(num) != None:
                 return True
-            occurences[ele] = 1
+            
+            nums_index[num] = index
         
         return False
