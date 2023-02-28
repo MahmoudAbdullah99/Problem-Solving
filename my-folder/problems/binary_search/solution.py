@@ -1,17 +1,18 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        left = 0
-        right = len(nums) - 1
+        def search(l, r):
+            m = (l+r)//2
 
-        while left <= right:
-            middle = (left + right) // 2
-            mid_element = nums[middle]
+            print(f"left is {l}, and right is {r} and middle is {m}")
+
+            if l > r:
+                return -1
             
-            if  target == mid_element:
-                return middle
-            elif target > mid_element:
-                left = middle + 1
+            if nums[m] == target:
+                return m
+            elif nums[m] > target:
+                return search(l,m-1)
             else:
-                right = middle - 1
-        
-        return -1
+                return search(m+1,r)
+
+        return search(0,len(nums)-1)
