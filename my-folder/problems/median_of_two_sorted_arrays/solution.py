@@ -1,42 +1,31 @@
-import math
-
 class Solution:
-        def findMedianSortedArrays(self, left_list: List[int],
-                                               right_list: List[int]) -> float:
-                            if len(left_list) and len (right_list) and left_list[-1] <= right_list[0]:
-                                final = left_list + right_list
-                                return final[len(final) // 2] if len(final) % 2 else \
-                                    (final[(len(final) // 2) - 1] + final[len(final) // 2]) / 2
-                            elif len(left_list) and len (right_list) and right_list[-1] <= left_list[0]:
-                                final = right_list + left_list
-                                return final[len(final) // 2] if len(final) % 2 else \
-                                    (final[(len(final) // 2) - 1] + final[len(final) // 2]) / 2
-                            else:
-                                length = len(left_list) + len(right_list)
-                                half_length = length // 2
-                                odd = bool(length % 2)
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        if len(nums1) > len(nums2):
+            nums1, nums2 = nums2, nums1
+        
+        tot_len = len(nums1) + len(nums2)
+        
+        l, r = 0, len(nums1)-1
+        
+        while True:
+            
+            m1 = (l + r) // 2
+            m2 = (tot_len // 2) - m1 - 2
+            
+            left_1  = nums1[m1] if m1 >= 0 else float("-infinity")
+            left_2  = nums2[m2] if m2 >= 0 else float("-infinity")
 
-                                if len(left_list) > len(right_list):
-                                    right_list, left_list = left_list, right_list
+            right_1 = nums1[m1 + 1] if (m1 + 1) < len(nums1) else float("infinity")
+            right_2 = nums2[m2 + 1] if (m2 + 1) < len(nums2) else float("infinity")
+            
+            if left_1 > right_2:
+                r = m1-1
+            
+            elif left_2 > right_1:
+                l = m1+1
 
-                                left_index, right_index = 0, len(left_list) - 1
-                                while True:
-                                    mid_left = (left_index + right_index) // 2
-                                    mid_right = half_length - mid_left - 2
+            else:        
+                if tot_len % 2 == 0:
+                    return (max(left_1, left_2) + min(right_1, right_2)) / 2
 
-                                    left_1 = left_list[mid_left] if mid_left >= 0 else -math.inf
-                                    right_1 = left_list[mid_left+1] if mid_left+1 < len(
-                                        left_list) else math.inf
-
-                                    left_2 = right_list[mid_right] if mid_right >= 0 else -math.inf
-                                    right_2 = right_list[mid_right+1] if mid_right+1 < len(right_list) else math.inf
-
-                                    if left_1 <= right_2 and left_2 <= right_1:
-                                        if odd:
-                                            return min(right_1, right_2)
-                                        else:
-                                            return (max(left_1, left_2) + min(right_1, right_2)) / 2
-                                    elif left_1 > right_2:
-                                        right_index = mid_left - 1
-                                    else:
-                                        left_index = mid_left + 1
+                return min(right_1, right_2)
